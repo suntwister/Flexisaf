@@ -6,7 +6,6 @@ def print_game():
     for i in range(3):
         print("| " + " | ".join(game_disp[i*3:(i+1)*3]) + " |")
 
-
 # we want to check for draw
 def draw():
     return " " not in game_disp
